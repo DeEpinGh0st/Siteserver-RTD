@@ -1,0 +1,4 @@
+#.vs file
+.vs/*
+#cache file
+*.cache

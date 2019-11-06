@@ -1,0 +1,8 @@
+D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\bin\Debug\SiteServer-Getshell.exe
+D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\bin\Debug\SiteServer-Getshell.pdb
+D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Debug\SiteServer_Getshell.Form1.resources
+D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Debug\SiteServer_Getshell.Properties.Resources.resources
+D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Debug\SiteServer-Getshell.csproj.GenerateResource.cache
+D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Debug\SiteServer-Getshell.exe
+D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Debug\SiteServer-Getshell.pdb
+D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Debug\SiteServer-Getshell.csprojAssemblyReference.cache
