@@ -116,7 +116,7 @@
             this.RemotePackage_TextBox.Name = "RemotePackage_TextBox";
             this.RemotePackage_TextBox.Size = new System.Drawing.Size(259, 21);
             this.RemotePackage_TextBox.TabIndex = 7;
-            this.RemotePackage_TextBox.Text = "http://www.attacker.com/package.zip";
+            this.RemotePackage_TextBox.Text = "http://www.example.com/xxx.zip";
             // 
             // Exp_Btn
             // 

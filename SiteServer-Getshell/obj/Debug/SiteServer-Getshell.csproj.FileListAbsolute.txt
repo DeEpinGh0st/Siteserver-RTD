@@ -5,4 +5,3 @@ D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Debug\SiteServer_Gets
 D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Debug\SiteServer-Getshell.csproj.GenerateResource.cache
 D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Debug\SiteServer-Getshell.exe
 D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Debug\SiteServer-Getshell.pdb
-D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Debug\SiteServer-Getshell.csprojAssemblyReference.cache

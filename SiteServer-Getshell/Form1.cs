@@ -161,7 +161,7 @@ namespace SiteServer_Getshell
 
         private void Help_PicBox_Click(object sender, EventArgs e)
         {
-            string _Message = "---SiteServer4.x-5.x RTD Using Manual---\r\n"
+            string _Message = "---SiteServer4.x-5.x RTD User Manual---\r\n"
                                 + "Step 1:\r\n(Optional)Input your remote template package URL and click the \"Detect\" button to detect your package status! \r\n"
                                 + "Step 2:\r\nInput your attack or test target and then click the \"Exploit\" Button\r\n"
                                 + "Note:\r\nYou can change the Payload Package name But the shell name must be \"include.aspx\"\r\n";
