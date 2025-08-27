@@ -6,7 +6,7 @@ Siteserver 4.x-5.x  RTD Tool
 
 ## 截图
 
-![image-20250827102558716](D:\Projects\Siteserver-RTD\assets\image-20250827102558716.png)
+![image-20250827102558716](./assets/image-20250827102558716.png)
 
 
 ## 使用方法/示例
