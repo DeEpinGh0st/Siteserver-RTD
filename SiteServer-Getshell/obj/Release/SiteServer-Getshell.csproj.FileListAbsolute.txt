@@ -1,7 +1,0 @@
-D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\bin\Release\SiteServer-Getshell.exe
-D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\bin\Release\SiteServer-Getshell.pdb
-D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Release\SiteServer_Getshell.Form1.resources
-D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Release\SiteServer_Getshell.Properties.Resources.resources
-D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Release\SiteServer-Getshell.csproj.GenerateResource.cache
-D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Release\SiteServer-Getshell.exe
-D:\Projects\C#\SiteServer-Getshell\SiteServer-Getshell\obj\Release\SiteServer-Getshell.pdb

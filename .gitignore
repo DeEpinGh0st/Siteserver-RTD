@@ -2,3 +2,6 @@
 .vs/*
 #cache file
 *.cache
+
+**/bin/
+**/obj/

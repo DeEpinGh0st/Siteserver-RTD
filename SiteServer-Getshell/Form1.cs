@@ -165,6 +165,7 @@ namespace SiteServer_Getshell
                                 + "Step 1:\r\n(Optional)Input your remote template package URL and click the \"Detect\" button to detect your package status! \r\n"
                                 + "Step 2:\r\nInput your attack or test target and then click the \"Exploit\" Button\r\n"
                                 + "Note:\r\nYou can change the Payload Package name But the shell name must be \"include.aspx\"\r\n";
+            Encode_TextBox.Text = _Message;
             MessageBox.Show(_Message, "Using Manual",MessageBoxButtons.OK,MessageBoxIcon.None);
         }
     }

@@ -187,7 +187,7 @@ namespace WHC.OrderWater.Commons
                 httpWebRequest.ContentType = contentType;
                 httpWebRequest.Referer = referer;
                 httpWebRequest.Accept = accept;
-                httpWebRequest.UserAgent = userAgent;
+                httpWebRequest.Headers["User-Agent"] = userAgent;
                 httpWebRequest.Method = isPost ? "POST" : "GET";
                 httpWebRequest.ContentLength = byteRequest.Length;
 
@@ -247,7 +247,7 @@ namespace WHC.OrderWater.Commons
                 httpWebRequest.ContentType = contentType;
                 httpWebRequest.Referer = reference;
                 httpWebRequest.Accept = accept;
-                httpWebRequest.UserAgent = userAgent;
+                httpWebRequest.Headers["User-Agent"] = userAgent;
                 httpWebRequest.Method = "GET";
 
                 HttpWebResponse httpWebResponse;
@@ -339,7 +339,7 @@ namespace WHC.OrderWater.Commons
                 httpWebRequest.ContentType = contentType;
                 httpWebRequest.Referer = reference;
                 httpWebRequest.Accept = accept;
-                httpWebRequest.UserAgent = userAgent;
+                httpWebRequest.Headers["User-Agent"] = userAgent;
                 httpWebRequest.Method = "GET";
 
                 HttpWebResponse httpWebResponse;

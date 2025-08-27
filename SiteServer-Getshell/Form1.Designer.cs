@@ -29,185 +29,201 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.Encode_TextBox = new System.Windows.Forms.TextBox();
-            this.Encode_Btn = new System.Windows.Forms.Button();
-            this.Decode_Btn = new System.Windows.Forms.Button();
-            this.Decode_TextBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.Target_TextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.RemotePackage_TextBox = new System.Windows.Forms.TextBox();
-            this.Exp_Btn = new System.Windows.Forms.Button();
-            this.Detect_Btn = new System.Windows.Forms.Button();
-            this.PayloadStatus_PicBox = new System.Windows.Forms.PictureBox();
-            this.Log_TextBox = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.Help_PicBox = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.PayloadStatus_PicBox)).BeginInit();
-            this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Help_PicBox)).BeginInit();
-            this.SuspendLayout();
+            Encode_TextBox = new System.Windows.Forms.TextBox();
+            Encode_Btn = new System.Windows.Forms.Button();
+            Decode_Btn = new System.Windows.Forms.Button();
+            Decode_TextBox = new System.Windows.Forms.TextBox();
+            label1 = new System.Windows.Forms.Label();
+            Target_TextBox = new System.Windows.Forms.TextBox();
+            label2 = new System.Windows.Forms.Label();
+            RemotePackage_TextBox = new System.Windows.Forms.TextBox();
+            Exp_Btn = new System.Windows.Forms.Button();
+            Detect_Btn = new System.Windows.Forms.Button();
+            PayloadStatus_PicBox = new System.Windows.Forms.PictureBox();
+            Log_TextBox = new System.Windows.Forms.TextBox();
+            groupBox1 = new System.Windows.Forms.GroupBox();
+            Help_PicBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)PayloadStatus_PicBox).BeginInit();
+            groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Help_PicBox).BeginInit();
+            SuspendLayout();
             // 
             // Encode_TextBox
             // 
-            this.Encode_TextBox.Location = new System.Drawing.Point(13, 29);
-            this.Encode_TextBox.Multiline = true;
-            this.Encode_TextBox.Name = "Encode_TextBox";
-            this.Encode_TextBox.Size = new System.Drawing.Size(361, 55);
-            this.Encode_TextBox.TabIndex = 0;
+            Encode_TextBox.Location = new System.Drawing.Point(15, 41);
+            Encode_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            Encode_TextBox.Multiline = true;
+            Encode_TextBox.Name = "Encode_TextBox";
+            Encode_TextBox.Size = new System.Drawing.Size(420, 76);
+            Encode_TextBox.TabIndex = 0;
             // 
             // Encode_Btn
             // 
-            this.Encode_Btn.Location = new System.Drawing.Point(384, 44);
-            this.Encode_Btn.Name = "Encode_Btn";
-            this.Encode_Btn.Size = new System.Drawing.Size(75, 27);
-            this.Encode_Btn.TabIndex = 1;
-            this.Encode_Btn.Text = "Encode";
-            this.Encode_Btn.UseVisualStyleBackColor = true;
-            this.Encode_Btn.Click += new System.EventHandler(this.Encode_Btn_Click);
+            Encode_Btn.Location = new System.Drawing.Point(448, 62);
+            Encode_Btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            Encode_Btn.Name = "Encode_Btn";
+            Encode_Btn.Size = new System.Drawing.Size(88, 38);
+            Encode_Btn.TabIndex = 1;
+            Encode_Btn.Text = "Encode";
+            Encode_Btn.UseVisualStyleBackColor = true;
+            Encode_Btn.Click += Encode_Btn_Click;
             // 
             // Decode_Btn
             // 
-            this.Decode_Btn.Location = new System.Drawing.Point(384, 115);
-            this.Decode_Btn.Name = "Decode_Btn";
-            this.Decode_Btn.Size = new System.Drawing.Size(75, 27);
-            this.Decode_Btn.TabIndex = 2;
-            this.Decode_Btn.Text = "Decode";
-            this.Decode_Btn.UseVisualStyleBackColor = true;
-            this.Decode_Btn.Click += new System.EventHandler(this.Decode_Btn_Click);
+            Decode_Btn.Location = new System.Drawing.Point(448, 163);
+            Decode_Btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            Decode_Btn.Name = "Decode_Btn";
+            Decode_Btn.Size = new System.Drawing.Size(88, 38);
+            Decode_Btn.TabIndex = 2;
+            Decode_Btn.Text = "Decode";
+            Decode_Btn.UseVisualStyleBackColor = true;
+            Decode_Btn.Click += Decode_Btn_Click;
             // 
             // Decode_TextBox
             // 
-            this.Decode_TextBox.Location = new System.Drawing.Point(13, 101);
-            this.Decode_TextBox.Multiline = true;
-            this.Decode_TextBox.Name = "Decode_TextBox";
-            this.Decode_TextBox.Size = new System.Drawing.Size(361, 55);
-            this.Decode_TextBox.TabIndex = 3;
+            Decode_TextBox.Location = new System.Drawing.Point(15, 143);
+            Decode_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            Decode_TextBox.Multiline = true;
+            Decode_TextBox.Name = "Decode_TextBox";
+            Decode_TextBox.Size = new System.Drawing.Size(420, 76);
+            Decode_TextBox.TabIndex = 3;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(13, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 12);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "    Target   :";
+            label1.AutoSize = true;
+            label1.Location = new System.Drawing.Point(33, 38);
+            label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(77, 17);
+            label1.TabIndex = 4;
+            label1.Text = "    Target   :";
             // 
             // Target_TextBox
             // 
-            this.Target_TextBox.Location = new System.Drawing.Point(105, 25);
-            this.Target_TextBox.Name = "Target_TextBox";
-            this.Target_TextBox.Size = new System.Drawing.Size(290, 21);
-            this.Target_TextBox.TabIndex = 5;
-            this.Target_TextBox.Text = "http://www.example.com";
+            Target_TextBox.Location = new System.Drawing.Point(122, 35);
+            Target_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            Target_TextBox.Name = "Target_TextBox";
+            Target_TextBox.PlaceholderText = "http://www.example.com";
+            Target_TextBox.Size = new System.Drawing.Size(338, 23);
+            Target_TextBox.TabIndex = 5;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(13, 57);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 12);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "RemotePackage:";
+            label2.AutoSize = true;
+            label2.Location = new System.Drawing.Point(15, 81);
+            label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(105, 17);
+            label2.TabIndex = 6;
+            label2.Text = "RemotePackage:";
             // 
             // RemotePackage_TextBox
             // 
-            this.RemotePackage_TextBox.Location = new System.Drawing.Point(105, 52);
-            this.RemotePackage_TextBox.Name = "RemotePackage_TextBox";
-            this.RemotePackage_TextBox.Size = new System.Drawing.Size(259, 21);
-            this.RemotePackage_TextBox.TabIndex = 7;
-            this.RemotePackage_TextBox.Text = "http://www.example.com/xxx.zip";
+            RemotePackage_TextBox.Location = new System.Drawing.Point(122, 80);
+            RemotePackage_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            RemotePackage_TextBox.Name = "RemotePackage_TextBox";
+            RemotePackage_TextBox.PlaceholderText = "http://www.example.com/xxx.zip";
+            RemotePackage_TextBox.Size = new System.Drawing.Size(302, 23);
+            RemotePackage_TextBox.TabIndex = 7;
             // 
             // Exp_Btn
             // 
-            this.Exp_Btn.Location = new System.Drawing.Point(412, 22);
-            this.Exp_Btn.Name = "Exp_Btn";
-            this.Exp_Btn.Size = new System.Drawing.Size(75, 23);
-            this.Exp_Btn.TabIndex = 8;
-            this.Exp_Btn.Text = "Exploit";
-            this.Exp_Btn.UseVisualStyleBackColor = true;
-            this.Exp_Btn.Click += new System.EventHandler(this.Exp_Btn_Click);
+            Exp_Btn.Location = new System.Drawing.Point(481, 31);
+            Exp_Btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            Exp_Btn.Name = "Exp_Btn";
+            Exp_Btn.Size = new System.Drawing.Size(88, 33);
+            Exp_Btn.TabIndex = 8;
+            Exp_Btn.Text = "Exploit";
+            Exp_Btn.UseVisualStyleBackColor = true;
+            Exp_Btn.Click += Exp_Btn_Click;
             // 
             // Detect_Btn
             // 
-            this.Detect_Btn.Location = new System.Drawing.Point(412, 51);
-            this.Detect_Btn.Name = "Detect_Btn";
-            this.Detect_Btn.Size = new System.Drawing.Size(75, 23);
-            this.Detect_Btn.TabIndex = 9;
-            this.Detect_Btn.Text = "Detect";
-            this.Detect_Btn.UseVisualStyleBackColor = true;
-            this.Detect_Btn.Click += new System.EventHandler(this.Detect_Btn_Click);
+            Detect_Btn.Location = new System.Drawing.Point(481, 72);
+            Detect_Btn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            Detect_Btn.Name = "Detect_Btn";
+            Detect_Btn.Size = new System.Drawing.Size(88, 33);
+            Detect_Btn.TabIndex = 9;
+            Detect_Btn.Text = "Detect";
+            Detect_Btn.UseVisualStyleBackColor = true;
+            Detect_Btn.Click += Detect_Btn_Click;
             // 
             // PayloadStatus_PicBox
             // 
-            this.PayloadStatus_PicBox.Location = new System.Drawing.Point(370, 51);
-            this.PayloadStatus_PicBox.Name = "PayloadStatus_PicBox";
-            this.PayloadStatus_PicBox.Size = new System.Drawing.Size(25, 22);
-            this.PayloadStatus_PicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PayloadStatus_PicBox.TabIndex = 10;
-            this.PayloadStatus_PicBox.TabStop = false;
+            PayloadStatus_PicBox.Location = new System.Drawing.Point(432, 72);
+            PayloadStatus_PicBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            PayloadStatus_PicBox.Name = "PayloadStatus_PicBox";
+            PayloadStatus_PicBox.Size = new System.Drawing.Size(29, 31);
+            PayloadStatus_PicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            PayloadStatus_PicBox.TabIndex = 10;
+            PayloadStatus_PicBox.TabStop = false;
             // 
             // Log_TextBox
             // 
-            this.Log_TextBox.Location = new System.Drawing.Point(15, 88);
-            this.Log_TextBox.Multiline = true;
-            this.Log_TextBox.Name = "Log_TextBox";
-            this.Log_TextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.Log_TextBox.Size = new System.Drawing.Size(472, 152);
-            this.Log_TextBox.TabIndex = 11;
+            Log_TextBox.Location = new System.Drawing.Point(18, 125);
+            Log_TextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            Log_TextBox.Multiline = true;
+            Log_TextBox.Name = "Log_TextBox";
+            Log_TextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            Log_TextBox.Size = new System.Drawing.Size(550, 214);
+            Log_TextBox.TabIndex = 11;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.Encode_TextBox);
-            this.groupBox1.Controls.Add(this.Decode_TextBox);
-            this.groupBox1.Controls.Add(this.Encode_Btn);
-            this.groupBox1.Controls.Add(this.Decode_Btn);
-            this.groupBox1.Location = new System.Drawing.Point(15, 272);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(472, 184);
-            this.groupBox1.TabIndex = 12;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Payload En/Decoder";
+            groupBox1.Controls.Add(Encode_TextBox);
+            groupBox1.Controls.Add(Decode_TextBox);
+            groupBox1.Controls.Add(Encode_Btn);
+            groupBox1.Controls.Add(Decode_Btn);
+            groupBox1.Location = new System.Drawing.Point(18, 385);
+            groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            groupBox1.Size = new System.Drawing.Size(551, 261);
+            groupBox1.TabIndex = 12;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Payload En/Decoder";
             // 
             // Help_PicBox
             // 
-            this.Help_PicBox.Location = new System.Drawing.Point(233, 244);
-            this.Help_PicBox.Name = "Help_PicBox";
-            this.Help_PicBox.Size = new System.Drawing.Size(33, 30);
-            this.Help_PicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.Help_PicBox.TabIndex = 13;
-            this.Help_PicBox.TabStop = false;
-            this.Help_PicBox.Click += new System.EventHandler(this.Help_PicBox_Click);
+            Help_PicBox.Location = new System.Drawing.Point(272, 346);
+            Help_PicBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            Help_PicBox.Name = "Help_PicBox";
+            Help_PicBox.Size = new System.Drawing.Size(38, 42);
+            Help_PicBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            Help_PicBox.TabIndex = 13;
+            Help_PicBox.TabStop = false;
+            Help_PicBox.Click += Help_PicBox_Click;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(504, 471);
-            this.Controls.Add(this.Help_PicBox);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.Log_TextBox);
-            this.Controls.Add(this.PayloadStatus_PicBox);
-            this.Controls.Add(this.Detect_Btn);
-            this.Controls.Add(this.Exp_Btn);
-            this.Controls.Add(this.RemotePackage_TextBox);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.Target_TextBox);
-            this.Controls.Add(this.label1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(520, 510);
-            this.MinimumSize = new System.Drawing.Size(520, 510);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SiteServer4.x-5.x RTD";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.PayloadStatus_PicBox)).EndInit();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.Help_PicBox)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(588, 667);
+            Controls.Add(Help_PicBox);
+            Controls.Add(groupBox1);
+            Controls.Add(Log_TextBox);
+            Controls.Add(PayloadStatus_PicBox);
+            Controls.Add(Detect_Btn);
+            Controls.Add(Exp_Btn);
+            Controls.Add(RemotePackage_TextBox);
+            Controls.Add(label2);
+            Controls.Add(Target_TextBox);
+            Controls.Add(label1);
+            Icon = (System.Drawing.Icon)resources.GetObject("$this.Icon");
+            Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            MaximizeBox = false;
+            MaximumSize = new System.Drawing.Size(604, 706);
+            MinimumSize = new System.Drawing.Size(604, 706);
+            Name = "Form1";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            Text = "SiteServer4.x-5.x RTD";
+            Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)PayloadStatus_PicBox).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)Help_PicBox).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
 
         }
 
